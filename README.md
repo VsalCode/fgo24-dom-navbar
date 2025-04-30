@@ -1,14 +1,14 @@
 # KODA Responsive Navbar
 
-In this project, I created a responsive navbar using media queries without grid and flexbox.
+In this project, I created a responsive navbar using media queries and flexbox
 
 ## Preview
 
 #### Min width 768px
-![navbar](./image.png)
+![navbar](./koda-web.png)
 
 #### Max width 768px
-![navbar](./image%20copy.png)
+![navbar](./koda-mobile.png)
 
 ## How To Run This Project
 
