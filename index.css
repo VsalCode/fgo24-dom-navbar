@@ -58,24 +58,64 @@ nav>div{
   display: inline-block;
 }
 
+.hamburger {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+}
+
 @media (max-width:768px){
   nav{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 50px;
-  }
-
-  nav>div:nth-child(1){
     display: flex;
     align-items: center;
   }
 
-  nav>div:nth-child(2){
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 0;
+  nav > div:first-child > h1{
+    font-size: 25px;
   }
 
+  nav > div:first-child > img {
+    width: 50px;
+    height: 50px;
+  }
+
+  nav>div:nth-child(2){
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hamburger > img {
+  height: 30px;
+    width: 30px;
+  }
+
+  .nav-mobile, .on {
+    background-color: #E83F25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    padding-left: 60px;
+    gap: 15px;
+  }
+
+  .nav-mobile  > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .off {
+    display: none;
+  }
 }

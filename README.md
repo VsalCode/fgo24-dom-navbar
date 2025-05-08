@@ -1,20 +1,23 @@
 # KODA Responsive Navbar
 
-In this project, I created a responsive navbar using media queries and flexbox
+In this project, I created a responsive navbar using DOM, cloned from a previous project that only used media queries in CSS
 
 ## Preview
 
-#### Min width 768px
-![navbar](./koda-web.png)
+#### Dekstop View
+![navbar](./assets/koda-web.png)
 
-#### Max width 768px
-![navbar](./koda-mobile.png)
+#### Mobile View
+![navbar](./assets/koda-mobile.png)
+
+#### Mobile View (on click)
+![navbar](./assets/image.png)
 
 ## How To Run This Project
 
 Clone this project url :
 
-``` https://github.com/VsalCode/fgo24-css-navbar.git ```
+``` https://github.com/VsalCode/fgo24-dom-navbar.git ```
 
 after entering the folder, install the dependencies:
 
